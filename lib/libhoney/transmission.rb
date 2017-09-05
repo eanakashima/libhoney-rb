@@ -1,6 +1,4 @@
 require 'libhoney/response'
-require 'faraday'
-require 'faraday_middleware'
 
 module Libhoney
   # @api private
@@ -91,27 +89,15 @@ module Libhoney
     end
 
     private
+
     def do_send(event)
-      conn = Faraday.new(:url => event.api_host) do |faraday|
-        faraday.request  :json
-        faraday.adapter  :net_http_persistent
-      end
-
-      resp = conn.post do |req|
-        req.url '/1/events/' + event.dataset
-        req.headers = {
-          'User-Agent' => "libhoney-rb/#{VERSION}",
-          'Content-Type' => 'application/json',
-          'X-Honeycomb-Team' => event.writekey,
-          'X-Honeycomb-SampleRate' => event.sample_rate.to_s,
-          'X-Event-Time' => event.timestamp.iso8601
-        }
-        req.body = event.data
-      end
-
-      # TODO handle faraday errors
-
-      resp
+      HTTP.headers(
+        'User-Agent' => "libhoney-rb/#{VERSION}",
+        'Content-Type' => 'application/json',
+        'X-Honeycomb-Team' => event.writekey,
+        'X-Honeycomb-SampleRate' => event.sample_rate,
+        'X-Event-Time' => event.timestamp.iso8601
+      ).post(URI.join(event.api_host, '/1/events/', event.dataset), :json => event.data)
     end
   end
 end

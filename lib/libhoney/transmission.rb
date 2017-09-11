@@ -99,7 +99,6 @@ module Libhoney
       # Memoize the faraday client so there's only one per api_host
       @connections[event.api_host] = Faraday.new(:url => event.api_host) do |faraday|
         faraday.request  :json
-        faraday.adapter  :net_http_persistent
       end
     end
 

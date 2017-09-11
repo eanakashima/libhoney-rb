@@ -1,0 +1,856 @@
+Total allocated: 1686596065 bytes (4963361 objects)
+Total retained:  5398 bytes (77 objects)
+
+allocated memory by gem
+-----------------------------------
+1577331809  other
+  56697321  http-2.2.2
+  39399238  addressable-2.5.2
+   7181032  honeycombio/lib
+   5981722  2.3.1/lib
+      4943  rubygems
+
+allocated memory by file
+-----------------------------------
+1577331809  example/fact.rb
+  28803972  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb
+  19101872  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb
+  18100944  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/timeout/null.rb
+  10595266  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb
+   9090536  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb
+   4084760  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb
+   3785792  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb
+   2884799  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb
+   2812064  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb
+   2602578  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb
+   1452473  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb
+   1429136  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/client.rb
+   1259614  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request/writer.rb
+   1185520  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb
+    487538  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/content_type.rb
+    284208  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/uri.rb
+    250705  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/time.rb
+    204600  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb
+    203000  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response.rb
+    162400  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/forwardable.rb
+    121800  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/status.rb
+    113688  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/connection.rb
+     81200  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb
+     79608  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb
+     40600  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/chainable.rb
+     40600  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type.rb
+      4223  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb
+       720  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/singleton.rb
+
+allocated memory by location
+-----------------------------------
+1573972328  example/fact.rb:14
+  16671375  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/timeout/null.rb:44
+  12604439  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:203
+   9882160  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+   5261760  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:182
+   3785792  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+   3214760  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:24
+   2233000  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:52
+   1625040  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:179
+   1567329  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+   1542816  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2228
+   1358070  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1372
+   1331680  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:162
+   1323560  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:147
+   1272810  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+   1272810  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+   1258600  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:60
+   1194480  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:66
+   1193640  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:163
+   1185969  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/timeout/null.rb:51
+   1136800  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:117
+   1073929  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:52
+   1049944  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:38
+   1049728  example/fact.rb:45
+   1022274  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+    974569  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:873
+    974400  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:181
+    893200  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:139
+    853440  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:51
+    852640  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:23
+    851585  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+    821304  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1240
+    821304  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:127
+    812520  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:68
+    779520  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:796
+    755160  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:136
+    730800  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:439
+    706440  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/client.rb:67
+    701355  example/fact.rb:34
+    621912  example/fact.rb:49
+    618304  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:205
+    569415  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request/writer.rb:34
+    560280  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:90
+    544048  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:54
+    538009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:22
+    527952  example/fact.rb:22
+    487200  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2428
+    479080  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1501
+    450456  example/fact.rb:24
+    438480  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1323
+
+allocated memory by class
+-----------------------------------
+1573972328  Bignum
+  47507861  String
+  18824120  MatchData
+  16250240  Array
+  12883776  Hash
+   4245488  RubyVM::Env
+   3479420  Regexp
+   2591600  Proc
+   2099136  Thread
+    754080  Time
+    633384  Addressable::URI
+    365400  URI::HTTP
+    349320  HTTP::Options
+    280760  Range
+    274664  Thread::Backtrace
+    243640  HTTP::Headers
+    243600  TCPSocket
+    243600  URI::Generic
+    227360  JSON::Ext::Generator::State
+    202088  Libhoney::Event
+    105576  HTTP::Connection
+     97440  HTTP::Request
+     97440  HTTP::Response
+     81200  HTTP::Response::Body
+     81200  HTTP::URI
+     73088  HTTP::Request::Writer
+     73088  HTTP::Response::Parser
+     73088  Libhoney::Response
+     40600  HTTP::Client
+     40600  HTTP::ContentType
+     40600  HTTP::Parser
+     40600  HTTP::Response::Status
+     40600  HTTP::Timeout::Null
+     37120  ThreadError
+       536  Class
+       528  Thread::Mutex
+       192  Libhoney::Builder
+       160  Gem::Version
+       144  Thread::SizedQueue
+       120  Libhoney::Client
+       120  Libhoney::TransmissionClient
+        80  Gem::Dependency
+        40  Gem::Requirement
+        40  HTTP::MimeType::JSON
+
+allocated objects by gem
+-----------------------------------
+   3995051  other
+    447640  addressable-2.5.2
+    416154  http-2.2.2
+     70039  2.3.1/lib
+     34420  honeycombio/lib
+        57  rubygems
+
+allocated objects by file
+-----------------------------------
+   3995051  example/fact.rb
+    323807  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb
+    154285  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb
+    123833  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb
+     98506  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb
+     63891  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb
+     39586  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb
+     29435  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb
+     20300  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb
+     19287  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb
+     15538  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb
+     14974  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb
+     13195  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request/writer.rb
+     12180  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/client.rb
+      6092  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/content_type.rb
+      5075  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/time.rb
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/forwardable.rb
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response.rb
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/uri.rb
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/status.rb
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/timeout/null.rb
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/connection.rb
+      1956  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb
+      1952  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/chainable.rb
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type.rb
+        45  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb
+        12  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/singleton.rb
+
+allocated objects by location
+-----------------------------------
+   3961581  example/fact.rb:14
+     63891  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+     55825  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:52
+     54813  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+     48720  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:182
+     46691  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:203
+     40626  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:179
+     24360  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:181
+     21316  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+     21315  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:162
+     20313  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:68
+     20300  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:60
+     18270  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:439
+     15545  example/fact.rb:49
+     15225  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+     12180  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:117
+     12180  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+     12180  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2428
+     12180  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+     10151  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1372
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2265
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:431
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:438
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:445
+      8120  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:796
+      8120  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:90
+      8118  example/fact.rb:34
+      7105  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1501
+      7105  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request/writer.rb:34
+      6091  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:873
+      6091  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:205
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:139
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:221
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:245
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1193
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1814
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2422
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:373
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:382
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:507
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:516
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:534
+      5824  example/fact.rb:24
+      5076  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1240
+      5076  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:127
+      5076  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:187
+      5076  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:23
+
+allocated objects by class
+-----------------------------------
+   3961581  Bignum
+    504458  String
+    281011  Array
+     64967  MatchData
+     32396  RubyVM::Env
+     32395  Proc
+     28276  Hash
+      7855  Time
+      7019  Range
+      6091  HTTP::Headers
+      6090  Regexp
+      4060  Addressable::URI
+      3045  URI::HTTP
+      2031  HTTP::Options
+      2030  HTTP::URI
+      2030  URI::Generic
+      1943  Libhoney::Event
+      1015  HTTP::Client
+      1015  HTTP::Connection
+      1015  HTTP::ContentType
+      1015  HTTP::Parser
+      1015  HTTP::Request
+      1015  HTTP::Request::Writer
+      1015  HTTP::Response
+      1015  HTTP::Response::Body
+      1015  HTTP::Response::Parser
+      1015  HTTP::Response::Status
+      1015  HTTP::Timeout::Null
+      1015  JSON::Ext::Generator::State
+      1015  Libhoney::Response
+      1015  TCPSocket
+       928  Thread::Backtrace
+       928  ThreadError
+         3  Thread::Mutex
+         2  Gem::Version
+         2  Libhoney::Builder
+         2  Thread
+         2  Thread::SizedQueue
+         1  Class
+         1  Gem::Dependency
+         1  Gem::Requirement
+         1  HTTP::MimeType::JSON
+         1  Libhoney::Client
+         1  Libhoney::TransmissionClient
+
+retained memory by gem
+-----------------------------------
+      2742  other
+      1296  honeycombio/lib
+       960  http-2.2.2
+       360  rubygems
+        40  2.3.1/lib
+
+retained memory by file
+-----------------------------------
+      2742  example/fact.rb
+       880  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb
+       544  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb
+       464  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb
+       360  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb
+       288  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb
+        80  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/singleton.rb
+
+retained memory by location
+-----------------------------------
+      1942  example/fact.rb:53
+       536  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:44
+       408  example/fact.rb:34
+       232  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:14
+       232  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:15
+       200  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:199
+       192  example/fact.rb:49
+       176  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:87
+       176  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:25
+       160  example/fact.rb:39
+       144  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:27
+       120  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:178
+        96  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:73
+        80  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:210
+        80  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:311
+        72  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:85
+        72  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:23
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/singleton.rb:142
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:187
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:23
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:106
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:52
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:54
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:58
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:61
+        40  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:55
+        40  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:67
+        40  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:84
+        40  example/fact.rb:48
+
+retained memory by class
+-----------------------------------
+      2038  String
+       896  Hash
+       536  Class
+       528  Thread::Mutex
+       216  RubyVM::Env
+       160  Array
+       160  Gem::Version
+       160  Proc
+       144  HTTP::Options
+       144  Thread::SizedQueue
+       120  Libhoney::Client
+       120  Libhoney::TransmissionClient
+        96  Libhoney::Builder
+        40  HTTP::Headers
+        40  HTTP::MimeType::JSON
+
+retained objects by gem
+-----------------------------------
+        49  other
+        11  honeycombio/lib
+         9  http-2.2.2
+         7  rubygems
+         1  2.3.1/lib
+
+retained objects by file
+-----------------------------------
+        49  example/fact.rb
+         7  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb
+         7  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb
+         4  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb
+         4  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb
+         3  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/singleton.rb
+
+retained objects by location
+-----------------------------------
+        42  example/fact.rb:53
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:199
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:210
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:311
+         2  example/fact.rb:34
+         2  example/fact.rb:39
+         2  example/fact.rb:49
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/singleton.rb:142
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:187
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:23
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:106
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:27
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:44
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:52
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:54
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:58
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:61
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:14
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:15
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:55
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:67
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:178
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:73
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:85
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb:87
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:23
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:25
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:84
+         1  example/fact.rb:48
+
+retained objects by class
+-----------------------------------
+        47  String
+         8  Hash
+         4  Array
+         3  Thread::Mutex
+         2  Gem::Version
+         2  Proc
+         2  RubyVM::Env
+         2  Thread::SizedQueue
+         1  Class
+         1  HTTP::Headers
+         1  HTTP::MimeType::JSON
+         1  HTTP::Options
+         1  Libhoney::Builder
+         1  Libhoney::Client
+         1  Libhoney::TransmissionClient
+
+
+Allocated String Report
+-----------------------------------
+     53535  ""
+     12180  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:439
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:507
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:423
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:877
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+      1943  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:95
+      1943  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:96
+      1943  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:97
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:44
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1377
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1501
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:382
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:534
+         1  example/fact.rb:34
+
+     27405  "utf-8"
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:438
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:439
+      9135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:445
+
+     25375  "http"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1814
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:873
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:877
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:853
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:333
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:24
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2229
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:382
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:534
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb:81
+
+     20300  "localhost"
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1093
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1091
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:41
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:68
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:72
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1240
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:127
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2232
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:382
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:534
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb:193
+
+     18270  "8081"
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1372
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1193
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1365
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:42
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1212
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1244
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:130
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1377
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb:193
+
+     16241  "[^a-zA-Z0-9\\-\\.\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\:\\@]"
+     12181  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+
+     14210  "localhost:8081"
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1187
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1240
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:127
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1206
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1238
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1244
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:125
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:130
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb:193
+
+     12182  "1"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:22
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1501
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:382
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:534
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:52
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:311
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:312
+
+     12180  "U*"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:117
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+
+     10150  "/"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2422
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1529
+
+     10150  "/1/events/"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1047
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:52
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:59
+      1015  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:100
+
+     10150  "factorial"
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:52
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:60
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1501
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:382
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:534
+
+      9135  "/1/events/factorial"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2234
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2304
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1047
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1501
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1506
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2380
+
+      9135  "events"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/idna/pure.rb:120
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1501
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:382
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:436
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:440
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:534
+
+      8180  "run"
+      8180  example/fact.rb:49
+
+      6090  "//"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2428
+
+      6090  "/1"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2428
+
+      6090  "[^"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+
+      6090  "]"
+      6090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+
+      5075  "X-Honeycomb-Samplerate"
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:112
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:203
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:205
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:207
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:90
+
+      5075  "http://localhost:8081/1/events/factorial"
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2304
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1344
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+
+      4896  "fact"
+      1941  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:56
+      1941  example/fact.rb:24
+      1014  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+
+      4061  "[^a-zA-Z0-9\\-\\+\\.]"
+      3046  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+
+      4061  "[^a-zA-Z0-9\\-\\.\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\[\\:\\]]"
+      3046  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:385
+
+      4060  "//localhost:8081"
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2306
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+
+      4060  ":8081"
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1193
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1212
+
+      4060  "a-zA-Z0-9\\-\\.\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\:\\@"
+      4060  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:530
+
+      4060  "application/json"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/content_type.rb:18
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/content_type.rb:17
+      1015  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:96
+
+      4060  "http:"
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2305
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:107
+
+      3476  "sleep"
+      3476  example/fact.rb:49
+
+      3045  "="
+      3045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:2265
+
+      3045  "post"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb:79
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/request.rb:149
+
+      2032  "^\\d+$"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/addressable-2.5.2/lib/addressable/uri.rb:1372
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:312
+
+      2031  "^[A-Z][a-z]*(?:-[A-Z][a-z]*)*$"
+      2031  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/headers.rb:203
+
+      2031  "headers"
+      1016  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:179
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:44
+
+      2031  "headers="
+      1016  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:179
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/options.rb:44
+
+      2030  "200 OK"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/status.rb:84
+
+      2030  "Connection"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+
+      2030  "Content-Length"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+
+      2030  "Content-Type"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+
+      2030  "Date"
+      2030  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+
+      2030  "application/json;"
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/content_type.rb:17
+      1015  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/response/parser.rb:13
+
+      2030  "heap_allocatable_pages"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+      2030  "heap_allocated_pages"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+      2030  "heap_available_slots"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+      2030  "heap_eden_pages"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+      2030  "heap_final_slots"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+      2030  "heap_free_slots"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+      2030  "heap_live_slots"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+      2030  "heap_marked_slots"
+      2028  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/http-2.2.2/lib/http/mime_type/json.rb:11
+         2  example/fact.rb:53
+
+
+Retained String Report
+-----------------------------------
+         2  "2.2"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:199
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:210
+
+         1  "2.3.1"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:210
+
+         1  "3.4.5"
+         1  example/fact.rb:48
+
+         1  "gc_stat_heap_used"
+         1  example/fact.rb:53
+
+         1  "heap_allocatable_pages"
+         1  example/fact.rb:53
+
+         1  "heap_allocated_pages"
+         1  example/fact.rb:53
+
+         1  "heap_available_slots"
+         1  example/fact.rb:53
+
+         1  "heap_eden_page_length"
+         1  example/fact.rb:53
+
+         1  "heap_eden_pages"
+         1  example/fact.rb:53
+
+         1  "heap_final_slot"
+         1  example/fact.rb:53
+
+         1  "heap_final_slots"
+         1  example/fact.rb:53
+
+         1  "heap_free_slot"
+         1  example/fact.rb:53
+
+         1  "heap_free_slots"
+         1  example/fact.rb:53
+
+         1  "heap_increment"
+         1  example/fact.rb:53
+
+         1  "heap_length"
+         1  example/fact.rb:53
+
+         1  "heap_live_slot"
+         1  example/fact.rb:53
+
+         1  "heap_live_slots"
+         1  example/fact.rb:53
+
+         1  "heap_marked_slots"
+         1  example/fact.rb:53
+
+         1  "heap_sorted_length"
+         1  example/fact.rb:53
+
+         1  "heap_swept_slot"
+         1  example/fact.rb:53
+
+         1  "heap_swept_slots"
+         1  example/fact.rb:53
+
+         1  "heap_tomb_page_length"
+         1  example/fact.rb:53
+
+         1  "heap_tomb_pages"
+         1  example/fact.rb:53
+
+         1  "http://localhost:8081"
+         1  example/fact.rb:39
+
+         1  "major_gc_count"
+         1  example/fact.rb:53
+
+         1  "malloc_increase"
+         1  example/fact.rb:53
+
+         1  "malloc_increase_bytes"
+         1  example/fact.rb:53
+
+         1  "malloc_increase_bytes_limit"
+         1  example/fact.rb:53
+
+         1  "malloc_limit"
+         1  example/fact.rb:53
+
+         1  "minor_gc_count"
+         1  example/fact.rb:53
+
+         1  "num_threads"
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:67
+
+         1  "old_objects"
+         1  example/fact.rb:53
+
+         1  "old_objects_limit"
+         1  example/fact.rb:53
+
+         1  "oldmalloc_increase"
+         1  example/fact.rb:53
+
+         1  "oldmalloc_increase_bytes"
+         1  example/fact.rb:53
+
+         1  "oldmalloc_increase_bytes_limit"
+         1  example/fact.rb:53
+
+         1  "oldmalloc_limit"
+         1  example/fact.rb:53
+
+         1  "remembered_wb_unprotected_objects"
+         1  example/fact.rb:53
+
+         1  "remembered_wb_unprotected_objects_limit"
+         1  example/fact.rb:53
+
+         1  "total_allocated_object"
+         1  example/fact.rb:53
+
+         1  "total_allocated_objects"
+         1  example/fact.rb:53
+
+         1  "total_allocated_pages"
+         1  example/fact.rb:53
+
+         1  "total_freed_object"
+         1  example/fact.rb:53
+
+         1  "total_freed_objects"
+         1  example/fact.rb:53
+
+         1  "total_freed_pages"
+         1  example/fact.rb:53
+
+         1  "version"
+         1  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb:55
+

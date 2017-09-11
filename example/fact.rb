@@ -2,10 +2,11 @@ lib = File.expand_path("../../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'libhoney'
+require 'memory_profiler'
 
-writekey = "7aefa39399a474bd9f414a8e3f8d9691" # replace this with yours from https://ui.honeycomb.com/account
+writekey = "4ca005aca23655f35253c57666c145ad" # replace this with yours from https://ui.honeycomb.com/account
 dataset = "factorial"
-
+MemoryProfiler.start
 
 def factorial(n)
   return -1 * factorial(abs(n)) if n < 0
@@ -22,7 +23,7 @@ def run_fact(low, high, libh_builder)
                     :i => i }
     ev.with_timer("fact") do
       res = factorial(10 + i)
-      ev.add_field("retval", res)
+    #   ev.add_field("retval", res)
     end
     ev.send
   end
@@ -33,9 +34,10 @@ def read_responses(resp_queue)
     puts "sending event with metadata #{resp.metadata} took #{resp.duration*1000}ms and got response code #{resp.status_code}"
   end
 end
-    
 
-libhoney = Libhoney::Client.new(:writekey => writekey,
+
+libhoney = Libhoney::Client.new(:api_host => 'http://localhost:8081',
+                                :writekey => writekey,
                                 :dataset => dataset,
                                 :max_concurrent_batches => 1)
 
@@ -48,8 +50,7 @@ Thread.new do
 
     # sends an event with "version", "num_threads", and "status" fields
     libhoney.send_now({:status => "starting run"})
-    run_fact(1, 20, libhoney.builder({:range => "low"}))
-    run_fact(31, 40, libhoney.builder({:range => "high"}))
+    run_fact(60, 2000, libhoney.builder({:range => "ultra high"}.merge(GC.stat)))
 
     # sends an event with "version", "num_threads", and "status" fields
     libhoney.send_now({:status => "ending run"})
@@ -60,3 +61,5 @@ Thread.new do
 end
 
 read_responses(resps)
+report = MemoryProfiler.stop
+report.pretty_print(to_file: "./report-#{Time.now()}.txt")

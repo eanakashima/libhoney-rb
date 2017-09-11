@@ -1,0 +1,1502 @@
+Total allocated: 2736641725 bytes (4879223 objects)
+Total retained:  961769 bytes (10400 objects)
+
+allocated memory by gem
+-----------------------------------
+1610542796  other
+1097892619  2.3.1/lib
+   9586652  faraday-0.13.1
+   7467624  honeycombio/lib
+   3920954  net-http-persistent-3.0.0
+   2968096  json-2.0.3
+   2722402  rubygems
+   1171278  connection_pool-2.2.1
+    364552  faraday_middleware-0.12.2
+      4752  2.3.0
+
+allocated memory by file
+-----------------------------------
+1577479271  example/fact.rb
+1060031184  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/timeout.rb
+  33063525  <internal:prelude>
+  18831832  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb
+   4485986  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb
+   4084760  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb
+   3283693  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb
+   3098656  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb
+   2978500  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb
+   2968096  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/json-2.0.3/lib/json/common.rb
+   2925554  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb
+   2755141  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb
+   2386485  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb
+   2026625  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb
+   2018169  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/connection.rb
+   1584167  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb
+   1574120  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/rack_builder.rb
+   1322822  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb
+   1293343  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb
+   1276320  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/options.rb
+   1082839  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http_persistent.rb
+   1041717  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb
+    586638  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb
+    582552  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb
+    428839  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb
+    364552  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday_middleware-0.12.2/lib/faraday_middleware/request/encode_json.rb
+    331836  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday.rb
+    330952  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter.rb
+    330952  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/parameters.rb
+    264391  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/basic_specification.rb
+    250232  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/request.rb
+    243527  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http.rb
+    204600  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb
+    201800  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/time.rb
+    183529  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle
+     92225  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb
+     80720  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/forwardable.rb
+     80720  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/middleware.rb
+     79608  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb
+     77399  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/socket.bundle
+     49366  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/responses.rb
+     42552  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/http.rb
+     40360  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/response.rb
+     37044  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb
+     23704  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb
+     22469  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/zlib.bundle
+     19416  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/x509.rb
+     12120  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/requests.rb
+     11132  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems.rb
+      9128  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb
+
+allocated memory by location
+-----------------------------------
+1573972328  example/fact.rb:14
+1059304704  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/timeout.rb:81
+  33063525  <internal:prelude>:76
+   7243780  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+   3214760  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:24
+   2742080  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/json-2.0.3/lib/json/common.rb:224
+   2360051  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+   2229055  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+   1610625  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:211
+   1600345  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:22
+   1312709  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+   1265286  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:32
+   1210969  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+   1100472  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:40
+   1067593  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:52
+   1056423  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+   1049728  example/fact.rb:45
+   1001097  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:55
+    984784  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:14
+    847560  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+    844533  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:172
+    807200  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+    783040  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http_persistent.rb:23
+    737569  example/fact.rb:34
+    733160  example/fact.rb:49
+    726480  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+    726480  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+    678217  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:62
+    632643  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:102
+    605400  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:63
+    540832  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:56
+    527952  example/fact.rb:22
+    524688  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:525
+    524680  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/timeout.rb:78
+    492392  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb:29
+    484552  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb:7
+    484320  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:57
+    468176  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:21
+    468176  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:32
+    450456  example/fact.rb:24
+    443960  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+    403769  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:264
+    363240  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:76
+    355168  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb:41
+    351160  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:32
+    347096  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/options.rb:13
+    347096  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/options.rb:7
+    339024  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:39
+    323049  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:41
+    323049  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:768
+
+allocated memory by class
+-----------------------------------
+1573972368  Bignum
+1061163776  Thread
+  65520361  String
+   9534208  Hash
+   7791720  Array
+   6990120  MatchData
+   1614352  RubyVM::Env
+   1052000  Proc
+   1000928  Faraday::Utils::Headers
+    850080  Time
+    726480  URI::HTTP
+    708440  RubyVM::InstructionSequence
+    468176  Faraday::Utils::ParamsHash
+    379920  File
+    355872  Thread::Mutex
+    322888  Net::HTTP
+    277944  Thread::Backtrace
+    274504  Net::HTTP::Persistent
+    245552  Class
+    242160  TCPSocket
+    242160  URI::Generic
+    226128  Faraday::ConnectionOptions
+    226016  JSON::Ext::Generator::State
+    209976  Faraday::RequestOptions
+    202088  Libhoney::Event
+    137224  Faraday::Env
+    129280  Faraday::SSLOptions
+    129168  Net::HTTP::Persistent::TimedStackMulti
+    121080  Faraday::Connection
+    121080  Net::HTTPGenericRequest
+    121080  Net::HTTPOK
+    121080  Symbol
+    105252  Regexp
+     96864  ConnectionPool::TimedStack
+     88800  Net::BufferedIO
+     88792  Faraday::Request
+     80720  Faraday::RackBuilder::Handler
+     80720  Thread::ConditionVariable
+     78040  Range
+     72656  Libhoney::Response
+     72656  Net::HTTP::Persistent::Connection
+     72656  Net::HTTP::Persistent::Pool
+     64704  UnboundMethod
+     59048  Module
+     40360  Faraday::Adapter::NetHttpPersistent
+     40360  Faraday::RackBuilder
+     40360  Faraday::Response
+     40360  FaradayMiddleware::EncodeJson
+     37360  ThreadError
+       912  Gem::Specification
+
+allocated objects by gem
+-----------------------------------
+   3998843  other
+    559388  2.3.1/lib
+    128179  faraday-0.13.1
+     63513  json-2.0.3
+     46553  net-http-persistent-3.0.0
+     39411  honeycombio/lib
+     25499  rubygems
+     14708  connection_pool-2.2.1
+      3031  faraday_middleware-0.12.2
+        98  2.3.0
+
+allocated objects by file
+-----------------------------------
+   3996830  example/fact.rb
+    291605  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb
+     63513  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/json-2.0.3/lib/json/common.rb
+     57529  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb
+     54506  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb
+     50472  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb
+     36332  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb
+     31289  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb
+     30272  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/rack_builder.rb
+     23310  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb
+     23258  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb
+     21683  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb
+     19965  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb
+     17158  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/options.rb
+     16145  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/connection.rb
+     15538  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb
+     14264  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb
+     12118  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb
+     11105  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb
+     10094  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http_persistent.rb
+     10090  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/timeout.rb
+      9415  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb
+      7460  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb
+      7241  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/time.rb
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/parameters.rb
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/request.rb
+      4041  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http.rb
+      3036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday.rb
+      3031  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday_middleware-0.12.2/lib/faraday_middleware/request/encode_json.rb
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter.rb
+      2781  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/basic_specification.rb
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/forwardable.rb
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/middleware.rb
+      2013  <internal:prelude>
+      1956  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb
+      1952  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb
+      1734  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle
+      1014  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/http.rb
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/response.rb
+       949  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/socket.bundle
+       510  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb
+       220  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems.rb
+       199  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/zlib.bundle
+       195  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb
+       150  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb
+       131  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/ssl.rb
+       118  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/responses.rb
+       111  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb
+       107  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb
+
+allocated objects by location
+-----------------------------------
+   3961581  example/fact.rb:14
+     96865  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+     62504  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/json-2.0.3/lib/json/common.rb:224
+     25225  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+     23207  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+     22198  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+     21189  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+     20180  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+     20076  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+     18162  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+     18162  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+     17154  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:55
+     16363  example/fact.rb:49
+     15136  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:62
+     15135  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:63
+     14127  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+     14126  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:172
+     12108  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:32
+     12108  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:57
+     11099  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+      9079  example/fact.rb:34
+      8072  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:446
+      7063  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+      7063  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:520
+      7063  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:547
+      6055  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:22
+      6055  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http_persistent.rb:22
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:102
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:41
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:445
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:447
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:448
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1499
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/options.rb:30
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb:9
+      5824  example/fact.rb:24
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:60
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/timeout.rb:81
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:333
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:53
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb:10
+      4038  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/rack_builder.rb:27
+      4037  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:264
+      4037  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:52
+      4037  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb:7
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:71
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:435
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:436
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:43
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/timeout.rb:78
+
+allocated objects by class
+-----------------------------------
+   3961582  Bignum
+    619679  String
+    152974  Array
+     33286  Hash
+     21217  MatchData
+     13150  Proc
+     12107  RubyVM::Env
+      8855  Time
+      6054  URI::HTTP
+      4036  Faraday::Utils::Headers
+      3027  Symbol
+      2022  Thread::Mutex
+      2019  Faraday::ConnectionOptions
+      2019  Faraday::RequestOptions
+      2018  Faraday::RackBuilder::Handler
+      2018  Faraday::Utils::ParamsHash
+      2018  Thread::ConditionVariable
+      2018  URI::Generic
+      1951  Range
+      1943  Libhoney::Event
+      1011  Thread
+      1011  UnboundMethod
+      1010  Faraday::SSLOptions
+      1009  ConnectionPool::TimedStack
+      1009  Faraday::Adapter::NetHttpPersistent
+      1009  Faraday::Connection
+      1009  Faraday::Env
+      1009  Faraday::RackBuilder
+      1009  Faraday::Request
+      1009  Faraday::Response
+      1009  FaradayMiddleware::EncodeJson
+      1009  JSON::Ext::Generator::State
+      1009  Libhoney::Response
+      1009  Net::BufferedIO
+      1009  Net::HTTP
+      1009  Net::HTTP::Persistent
+      1009  Net::HTTP::Persistent::Connection
+      1009  Net::HTTP::Persistent::Pool
+      1009  Net::HTTP::Persistent::TimedStackMulti
+      1009  Net::HTTPGenericRequest
+      1009  Net::HTTPOK
+      1009  TCPSocket
+       936  Thread::Backtrace
+       934  ThreadError
+       595  RubyVM::InstructionSequence
+       324  Class
+       114  Regexp
+        47  File
+        27  Module
+        15  Gem::Requirement
+
+retained memory by gem
+-----------------------------------
+    565630  2.3.1/lib
+    172687  rubygems
+    164283  net-http-persistent-3.0.0
+     47721  connection_pool-2.2.1
+      3515  faraday-0.13.1
+      2792  2.3.0
+      2742  other
+      1296  honeycombio/lib
+      1103  faraday_middleware-0.12.2
+
+retained memory by file
+-----------------------------------
+    162113  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb
+    130457  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle
+    120399  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb
+     81711  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb
+     73158  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb
+     66049  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb
+     58839  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/socket.bundle
+     49366  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/responses.rb
+     43286  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb
+     19480  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb
+     19269  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/zlib.bundle
+     17063  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb
+     13406  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb
+     12120  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/requests.rb
+      8585  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/x509.rb
+      8007  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb
+      7104  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb
+      5184  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/ssl.rb
+      4803  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb
+      4632  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/digest.bundle
+      4496  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb
+      3603  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/basic_specification.rb
+      3207  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/exceptions.rb
+      2816  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri.rb
+      2759  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb
+      2743  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb
+      2742  example/fact.rb
+      2427  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb
+      2152  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/http.rb
+      2000  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ldap.rb
+      1832  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ftp.rb
+      1808  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb
+      1768  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/version.rb
+      1664  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/mailto.rb
+      1656  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb
+      1656  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/specifications/net-http-persistent-3.0.0.gemspec
+      1407  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/connection.rb
+      1287  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http.rb
+      1232  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/buffering.rb
+      1160  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb
+      1136  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/specifications/connection_pool-2.2.1.gemspec
+      1103  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday_middleware-0.12.2/lib/faraday_middleware/request/encode_json.rb
+      1008  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb
+       863  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http_persistent.rb
+       808  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/options.rb
+       792  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/set.rb
+       768  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/https.rb
+       768  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ldaps.rb
+       752  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb
+       624  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/proxy_delta.rb
+
+retained memory by location
+-----------------------------------
+    155778  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+    130457  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle:0
+     80720  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb:10
+     71639  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb:9
+     58839  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/socket.bundle:0
+     40360  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:53
+     24392  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:339
+     20440  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+     19269  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/zlib.bundle:0
+     12888  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:333
+     12118  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:509
+     11680  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+     11680  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+     10384  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:492
+     10192  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:39
+      9416  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:386
+      7680  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+      7680  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+      6335  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+      5640  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:26
+      5384  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:190
+      5104  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:505
+      5074  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:510
+      4632  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/digest.bundle:0
+      4329  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:506
+      4299  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:511
+      4168  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:40
+      4104  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:20
+      2985  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:456
+      2776  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri.rb:97
+      2712  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/responses.rb:215
+      2536  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb:19
+      2431  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:21
+      2405  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/x509.rb:75
+      2392  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:44
+      2129  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb:1164
+      2069  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:520
+      2056  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/http.rb:23
+      1942  example/fact.rb:53
+      1908  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:525
+      1808  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:7
+      1784  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:17
+      1736  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ldap.rb:23
+      1728  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/version.rb:1
+      1704  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:344
+      1617  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb:524
+      1600  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb:18
+      1544  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ftp.rb:23
+      1544  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/mailto.rb:18
+      1536  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:11
+
+retained memory by class
+-----------------------------------
+    427265  String
+    245552  Class
+    104760  Regexp
+     59048  Module
+     58320  Hash
+     40360  Symbol
+      9928  Array
+      7368  RubyVM::Env
+      4240  Proc
+       912  Gem::Specification
+       704  Thread::Mutex
+       560  Gem::Dependency
+       440  Gem::Requirement
+       368  Gem::Version
+       288  Time
+       280  Range
+       144  Thread::SizedQueue
+       128  Faraday::SSLOptions
+       128  UnboundMethod
+       120  Libhoney::Client
+       120  Libhoney::TransmissionClient
+       112  Faraday::ConnectionOptions
+       112  OpenSSL::PKey::DH
+       104  Faraday::RequestOptions
+        96  Libhoney::Builder
+        88  OpenSSL::X509::Store
+        64  Method
+        40  <<Unknown>>
+        40  Set
+        40  URI::RFC2396_Parser
+        40  URI::RFC3986_Parser
+
+retained objects by gem
+-----------------------------------
+      3938  2.3.1/lib
+      3097  net-http-persistent-3.0.0
+      2182  rubygems
+      1057  connection_pool-2.2.1
+        49  2.3.0
+        49  other
+        15  faraday-0.13.1
+        11  honeycombio/lib
+         2  faraday_middleware-0.12.2
+
+retained objects by file
+-----------------------------------
+      2054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb
+      2022  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb
+      1704  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb
+      1039  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb
+      1011  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb
+       877  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle
+       485  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/socket.bundle
+       131  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb
+       119  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/zlib.bundle
+       118  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/responses.rb
+        83  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc2396_parser.rb
+        70  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb
+        69  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb
+        52  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/ssl.rb
+        52  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb
+        50  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb
+        49  example/fact.rb
+        45  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/requests.rb
+        41  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb
+        31  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/specifications/net-http-persistent-3.0.0.gemspec
+        29  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb
+        26  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/basic_specification.rb
+        23  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb
+        18  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/specifications/connection_pool-2.2.1.gemspec
+        16  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/x509.rb
+        15  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/digest.bundle
+        13  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb
+        12  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/connection.rb
+        11  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/exceptions.rb
+        11  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb
+        11  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb
+        11  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb
+         9  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ftp.rb
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ldap.rb
+         6  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/mailto.rb
+         5  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb
+         5  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/config.rb
+         5  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/buffering.rb
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/pkey.rb
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/http.rb
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/options.rb
+         4  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/builder.rb
+         4  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/client.rb
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/version.rb
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/adapter/net_http.rb
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb
+         3  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/proxy_delta.rb
+
+retained objects by location
+-----------------------------------
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/pool.rb:10
+      1946  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:53
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent/timed_stack_multi.rb:9
+       877  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle:0
+       511  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+       485  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/socket.bundle:0
+       292  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+       292  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+       192  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+       192  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+       119  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/zlib.bundle:0
+       108  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+        42  example/fact.rb:53
+        40  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:40
+        26  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:39
+        26  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:44
+        25  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb:19
+        25  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/ssl.rb:80
+        23  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:2
+        21  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb:2040
+        15  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/digest.bundle:0
+        13  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:45
+        13  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:199
+        12  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb:107
+        10  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:47
+        10  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb:124
+         9  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb:29
+         9  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:18
+         9  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb:3
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb:17
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb:18
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/cipher.rb:24
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/basic_specification.rb:91
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/basic_specification.rb:99
+         7  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:1428
+         7  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb:59
+         7  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb:1525
+         7  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:210
+         6  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb:1164
+         5  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/digest.rb:20
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/ssl.rb:91
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/ssl.rb:99
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/ftp.rb:43
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/specifications/net-http-persistent-3.0.0.gemspec:15
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/specifications/net-http-persistent-3.0.0.gemspec:16
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:386
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:691
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:694
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:735
+
+retained objects by class
+-----------------------------------
+      8522  String
+      1009  Symbol
+       324  Class
+       207  Array
+       113  Regexp
+        66  RubyVM::Env
+        53  Proc
+        27  Module
+        20  Hash
+        11  Gem::Requirement
+         7  Gem::Dependency
+         7  Gem::Version
+         7  Range
+         4  Thread::Mutex
+         3  Time
+         2  Gem::Specification
+         2  OpenSSL::PKey::DH
+         2  Thread::SizedQueue
+         2  UnboundMethod
+         1  <<Unknown>>
+         1  Faraday::ConnectionOptions
+         1  Faraday::RequestOptions
+         1  Faraday::SSLOptions
+         1  Libhoney::Builder
+         1  Libhoney::Client
+         1  Libhoney::TransmissionClient
+         1  Method
+         1  OpenSSL::X509::Store
+         1  Set
+         1  URI::RFC2396_Parser
+         1  URI::RFC3986_Parser
+
+
+Allocated String Report
+-----------------------------------
+     34169  ""
+      7063  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:172
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:55
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:44
+      1943  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:95
+      1943  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:96
+      1943  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:97
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:340
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:69
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:847
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:52
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:61
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/connection.rb:334
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/connection.rb:449
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/parameters.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/parameters.rb:63
+      1004  <internal:prelude>:76
+        89  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle:0
+         1  example/fact.rb:34
+
+     20191  ", "
+     11099  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+      6054  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:32
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:102
+        11  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+     15139  "content-type"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:63
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:60
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+     14131  "accept-encoding"
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:71
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:39
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:61
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:47
+
+     13121  "keep-alive"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:448
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:446
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:447
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:63
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:60
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:1017
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+
+     13118  "application/json"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:32
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:309
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday_middleware-0.12.2/lib/faraday_middleware/request/encode_json.rb:40
+      1009  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:104
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+     12124  "http"
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:333
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1499
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:24
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:606
+        16  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+     11177  "-"
+     11100  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+        50  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/platform.rb:123
+         7  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:210
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle:0
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:1
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:2
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb:3
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:45
+
+     10157  "/"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/connection.rb:334
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:768
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/connection.rb:412
+        55  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle:0
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:1
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:2
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb:3
+
+     10090  "/1/events/factorial"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:27
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1047
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/http.rb:101
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:52
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:59
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/request.rb:57
+      1009  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:101
+
+     10090  "user-agent"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:53
+
+      8434  "run"
+      8434  example/fact.rb:49
+
+      8076  "close"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:435
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:436
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      7210  "0"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:264
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:102
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:32
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:62
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:100
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:113
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+         9  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb:104
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri.rb:100
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      7067  "Content-Type"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:62
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      7066  "content-length"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:63
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:60
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      7066  "range"
+      5045  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+      2016  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/json-2.0.3/lib/json/common.rb:224
+         5  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      6518  "\n"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:55
+      1144  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:146
+       257  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+        34  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool.rb:2
+        12  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/connection_pool-2.2.1/lib/connection_pool/timed_stack.rb:3
+        10  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb:1164
+         9  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle:0
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/config.rb:114
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+      6058  "host"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:41
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:1494
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:71
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      6056  "User-Agent"
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:46
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:53
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:61
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:45
+
+      6056  "json"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:328
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      6054  "accept"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:41
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:71
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+
+      6054  "application"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+
+      6054  "x-event-time"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+
+      6054  "x-honeycomb-samplerate"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+
+      6054  "x-honeycomb-team"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:35
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:146
+
+      5057  ";"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:318
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday_middleware-0.12.2/lib/faraday_middleware/request/encode_json.rb:49
+         6  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+      5050  "connection"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:63
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:31
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:60
+         5  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      5049  "Connection"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:1016
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:1017
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      5047  "Accept"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:45
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      5047  "Content-Length"
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:263
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:264
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:62
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      5047  "date"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:63
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/faraday-0.13.1/lib/faraday/utils.rb:58
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:60
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb:2041
+
+      5045  "8081"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:42
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:1561
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:877
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:975
+
+      4890  "fact"
+      1941  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/event.rb:56
+      1941  example/fact.rb:24
+      1008  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/json-2.0.3/lib/json/common.rb:224
+
+      4177  "1"
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:980
+      1009  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:106
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:311
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/version.rb:312
+
+      4110  "C"
+      4036  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:57
+        33  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+        17  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+        17  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/x86_64-darwin16/openssl.bundle:0
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+      4040  "sleep"
+      4040  example/fact.rb:49
+
+      4036  "libhoney-rb/1.2.0"
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:32
+      1009  /Users/ea/honeycombio/libhoney-rb/lib/libhoney/transmission.rb:103
+
+      4036  "localhost:8081"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:975
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http.rb:1561
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+
+      3050  " "
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:57
+        13  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb:2425
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:347
+
+      3048  "\r\n"
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:328
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:55
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/protocol.rb:172
+        21  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      3037  "\t"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/response.rb:57
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/config.rb:116
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+      3033  "X"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+      3033  "x"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+      3031  "HTTP"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/rfc3986_parser.rb:75
+         4  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      3031  "Keep-Alive"
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/net-http-persistent-3.0.0/lib/net/http/persistent.rb:1018
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+
+      3031  "http_proxy"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1499
+         3  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+
+      3029  "HTTP_PROXY"
+      3027  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/generic.rb:1526
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:127
+
+      3029  "Host"
+      2018  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:173
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:326
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+      3029  "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/generic_request.rb:40
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:166
+      1009  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/net/http/header.rb:18
+         2  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+
+
+Retained String Report
+-----------------------------------
+        18  "windows-1252"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:609
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:610
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:611
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:612
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:613
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:614
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:615
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:616
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:617
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:618
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:619
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:620
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:621
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:622
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:623
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:624
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:625
+
+        15  "iso-8859-6"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:534
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:535
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:536
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:537
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:538
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:539
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:540
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:541
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:542
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:543
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:544
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:545
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:546
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:547
+
+        13  "iso-8859-7"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:548
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:549
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:550
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:551
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:552
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:553
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:554
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:555
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:556
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:557
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:558
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:559
+
+        13  "windows-1254"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:629
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:630
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:631
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:632
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:633
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:634
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:635
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:636
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:637
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:638
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:639
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:640
+
+        12  "iso-8859-8"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:560
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:561
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:562
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:563
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:564
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:565
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:566
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:567
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:568
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:569
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:570
+
+        11  "euc-kr"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:682
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:683
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:684
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:685
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:686
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:687
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:688
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:689
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:690
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:691
+
+        10  "gbk"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:655
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:656
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:657
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:658
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:659
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:660
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:661
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:662
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:663
+
+        10  "iso-8859-2"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:499
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:500
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:501
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:502
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:503
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:504
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:505
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:506
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:507
+
+        10  "iso-8859-3"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:508
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:509
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:510
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:511
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:512
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:513
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:514
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:515
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:516
+
+        10  "iso-8859-4"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:517
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:518
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:519
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:520
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:521
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:522
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:523
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:524
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:525
+
+         9  "iso-8859-5"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:526
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:527
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:528
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:529
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:530
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:531
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:532
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:533
+
+         8  "/Users/ea/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/extensions/x86_64-darwin-16/2.3.0-static"
+         8  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/basic_specification.rb:99
+
+         8  "iso-8859-10"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:571
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:572
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:573
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:574
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:575
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:576
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:577
+
+         7  "Windows-31J"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:675
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:676
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:677
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:678
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:679
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:680
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:681
+
+         7  "iso-8859-15"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:584
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:585
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:586
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:587
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:588
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:589
+
+         7  "windows-874"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:597
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:598
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:599
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:600
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:601
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:602
+
+         6  "big5"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:665
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:666
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:667
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:668
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:669
+
+         6  "koi8-r"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:591
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:592
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:593
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:594
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:595
+
+         5  "\n"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/openssl/config.rb:114
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "ibm866"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:495
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:496
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:497
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:498
+
+         5  "~>"
+         5  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/requirement.rb:107
+
+         5  "\xAA"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xAB"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xAC"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xAD"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xAE"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xAF"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xBA"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xBB"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xBC"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xBD"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xBE"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xBF"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xCA"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xCB"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xCC"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xCD"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xCE"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xCF"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xDA"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xDB"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xDC"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xDD"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xDE"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xDF"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xEA"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xEB"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xEC"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xED"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+
+         5  "\xEE"
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:335
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:342
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:343
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:344
+         1  /Users/ea/.rbenv/versions/2.3.1/lib/ruby/2.3.0/uri/common.rb:345
+

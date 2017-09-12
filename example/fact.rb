@@ -50,7 +50,7 @@ Thread.new do
 
     # sends an event with "version", "num_threads", and "status" fields
     libhoney.send_now({:status => "starting run"})
-    run_fact(60, 2000, libhoney.builder({:range => "ultra high"}.merge(GC.stat)))
+    run_fact(60, 3000, libhoney.builder({:range => "ultra high"}.merge(GC.stat)))
 
     # sends an event with "version", "num_threads", and "status" fields
     libhoney.send_now({:status => "ending run"})
